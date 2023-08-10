@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,9 +85,12 @@ body {
     border: 2px solid #2DFFFD;
 }
 
-.footer__home{
+.rodape{
+    padding: 24px;
     color: #000000;
-    padding: 20px;
-    text-align: center;
     background-color: #2DFFFD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
