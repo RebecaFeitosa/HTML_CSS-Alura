@@ -25,12 +25,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #2DFFFD;
+    color: rgb(248, 7, 196);
     text-decoration: none;
 }
 
 .titulo-destaque {
-    color: #2DFFFD;
+    color: rgb(248, 7, 196);
 }
 
 .apresentacao {
@@ -53,8 +53,24 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__texto1 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__subtitulo{
+    font-size: 22px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__subtitulo_sub{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__links {
@@ -79,7 +95,7 @@ body {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    border: 2px solid #2DFFFD;
+    border: 2px solid rgb(248, 7, 196);
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
@@ -94,13 +110,13 @@ body {
 
 .imagem {
     border-radius: 10px;
-    border: 2px solid #2DFFFD;
+    border: 2px solid rgb(248, 7, 196);
 }
 
 .rodape{
     padding: 24px;
     color: #000000;
-    background-color: #2DFFFD;
+    background-color: rgb(216, 4, 170);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
