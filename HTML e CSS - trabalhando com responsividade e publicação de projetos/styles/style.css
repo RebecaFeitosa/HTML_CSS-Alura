@@ -133,7 +133,22 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1100px) {
+/*  Media query é uma estrutura que permite aplicar estilizações especificas
+para uma página web de acordo com determinadas condições. Fazendo com que a página
+se adeque ao layout de tela em diferentes tamanhos e tipos de mídia. É possível
+ter mais de um @media no projeto, exemplo um para o celular, outro para o tablet...
+    É como se fosse uma condição if, nesse caso: enquanto o width maximo da tela
+for 1200 ele manterá os parâmetros normais, quando for menor que 1200 ele irá
+aplicar os parâmetros dados dentro do @media.*/
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
     }
