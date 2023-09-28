@@ -1,0 +1,19 @@
+/* Declarar variáveis globais */
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+/* Zerar o espaçamento de todos os elementos 
+(usando o seletor *), para eu definir depois */
+* {
+    margin: 0;
+    padding: 0;
+}
