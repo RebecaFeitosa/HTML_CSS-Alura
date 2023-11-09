@@ -1,3 +1,3 @@
 # HTML_CSS-Alura
 
-Código desenvolvido durante os cursos de HTML e CSS da Alura.
+Projetos desenvolvidos durante os seis cursos de HTML e CSS da Alura.
