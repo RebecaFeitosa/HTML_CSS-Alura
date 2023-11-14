@@ -54,15 +54,10 @@
     text-transform: uppercase;
 }
 
-.container__botao {
-    display: none;
-}
-
-.container__titulo {
-    display: none;
-}
-
-.opções {
+.container__botao, 
+.container__titulo,
+.opções,
+.container__texto {
     display: none;
 }
 
@@ -110,5 +105,26 @@
 
     .opções__botão {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__links {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabeçalho {
+        padding: 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
